@@ -1,10 +1,32 @@
+# this is axit wrapper file
 
 
 
 
 
-def info():
-	print('this is v0.0.3 version')
+
+
+
+
+
+
+
+
+# https://stackoverflow.com/a/9728478/5944456
+import os
+
+def list_files(startpath):
+    for root, dirs, files in os.walk(startpath):
+        level = root.replace(startpath, '').count(os.sep)
+        indent = ' ' * 4 * (level)
+        print('{}{}/'.format(indent, os.path.basename(root)))
+        subindent = ' ' * 4 * (level + 1)
+        for f in files:
+            print('{}{}'.format(subindent, f))
+
+
+
+
 
 
 def ins(v):

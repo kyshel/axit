@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="axit", 
-    version="0.0.3",
+    version="0.0.4",
     author="kyshel",
     author_email="kyshel@example.com",
     description="Axit is a package for ax things.",
