@@ -12,6 +12,12 @@ Axit means Ax it!  Aims for speedup develop efficient.
 
 # releases
 
+## v0.0.5
+- CUR_TIME
+- dict2csvfile
+- dict2jsonfile
+- save_obj and load_obj
+
 ## v0.0.3
 - integrate vcs
 
